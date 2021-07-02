@@ -88,7 +88,7 @@ function App() {
       setUsers(list);
     });
     return () => subscribe();
-  }, []);
+  }, [users]);
 
   useEffect(() => {
     const subscribe = db
